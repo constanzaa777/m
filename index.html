@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ejercicio 1 - Layout 3 columnas (Responsive)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <header class="site-header">Encabezado</header>
+
+    <nav class="sidebar sidebar-left" aria-label="Menú lateral izquierdo">
+      <h2>Menú</h2>
+      <ul>
+        <li><a href="#">Enlace 1</a></li>
+        <li><a href="#">Enlace 2</a></li>
+        <li><a href="#">Enlace 3</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <h1>Contenido principal</h1>
+      <p>
+        Aquí va el contenido principal. En escritorio ocupa la columna central; en móvil
+        se mostrará inmediatamente después del encabezado.
+      </p>
+    </main>
+
+    <aside class="sidebar sidebar-right" aria-label="Barra lateral derecha">
+      <h2>Info</h2>
+      <p>Widgets / Publicidad / Enlaces</p>
+    </aside>
+
+    <footer class="site-footer">Pie de página</footer>
+  </div>
+</body>
+</html>
