@@ -40,7 +40,7 @@ body {
 .site-header {
   grid-area: header;
   background: var(--bg-header);
-  color: white;
+  color: grey;
   padding: 20px;
   border-radius: var(--radius);
   text-align: center;
@@ -58,9 +58,9 @@ body {
 }
 
 /* Colores/estilos para cada columna */
-.sidebar-left { background: var(--bg-left); color: #222; }
-.content { background: var(--bg-main); color: #111; padding: 20px; border-radius: var(--radius); }
-.sidebar-right { background: var(--bg-right); color: #222; }
+.sidebar-left { background: var(--bg-left); color: #245; }
+.content { background: var(--bg-main); color: #133; padding: 20px; border-radius: var(--radius); }
+.sidebar-right { background: var(--bg-right); color: #622; }
 
 /* Footer */
 .site-footer {
@@ -95,3 +95,4 @@ body {
     padding: 14px;
   }
 }
+
